@@ -130,8 +130,6 @@ for i=1:tol_iters
 end
 result=[Xi xi_best]; 
 
-D11 = result(:,2);
-
 clearvars -except result
 
 
